@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    mix-blend-mode: difference;
+}
+
+h2:active {
+    color: darkgray;
+}

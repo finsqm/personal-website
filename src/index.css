@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  font-family: "futura-pt";
-  background: url('BackgroundImage.png') no-repeat fixed;
+  font-family: "futura-pt", sans-serif;
+  background: black url('BackgroundImage.png') no-repeat fixed;
   background-size: cover;
 }
