@@ -14,6 +14,6 @@ const BioPage = () => (
       Quisque id sagittis ex.
     </p>
   </div>
-);
+)
 
 export default BioPage

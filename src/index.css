@@ -3,6 +3,6 @@ body {
   padding: 0;
   height: 100vh;
   font-family: "futura-pt", sans-serif;
-  background: black url('BackgroundImage.png') no-repeat fixed;
-  background-size: cover;
+  /*background: black url('BackgroundImage.png') no-repeat fixed;*/
+  /*background-size: cover;*/
 }
