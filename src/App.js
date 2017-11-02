@@ -1,18 +1,26 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+// import LandingPage from './LandingPage'
+import './App.css'
+import BioPage from './BioPage'
 
-import LandingPage from './LandingPage';
-
-import './App.css';
-
+const LANDING = 'LANDING'
 
 class App extends Component {
-  render() {
+  constructor () {
+    super()
+    this.state = {
+      position: LANDING
+    }
+  }
+
+  render () {
     return (
-      <div className="App">
-        <LandingPage />
+      <div className='App'>
+        {/* <LandingPage /> */}
+        <BioPage />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
