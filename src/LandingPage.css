@@ -3,6 +3,8 @@
     flex-direction: column;
     height: 100vh;
     justify-content: space-around;
+    background: black url('BackgroundImage.png') no-repeat fixed;
+    background-size: cover;
 }
 
 h2 {
